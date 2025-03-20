@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "patient_id": "1",
+    "wsi_video_url": "None",
+    "inference_results": "{'delayTime': 800, 'executionTime': 5000, 'id': 'sync-patient1', 'output': {'detection_results': [[50, 50, 100, 100, 'Circular_RBC'], [150, 150, 200, 200, 'Circular_RBC']], 'status': 'COMPLETED', 'workerId': 'worker1'}}",
+    "celery_status": "completed",
+    "filename": "patient1.png",
+    "sample_type": "blood",
+    "date": "2024-12-01"
+  },
+  {
+    "id": 2,
+    "patient_id": "2",
+    "wsi_video_url": "None",
+    "inference_results": "{'delayTime': 900, 'executionTime': 5500, 'id': 'sync-patient2', 'output': {'detection_results': [[30, 30, 80, 80, 'Circular_RBC']], 'status': 'COMPLETED', 'workerId': 'worker2'}}",
+    "celery_status": "completed",
+    "filename": "patient2.png",
+    "sample_type": "blood",
+    "date": "2024-12-02"
+  },
+  {
+    "id": 3,
+    "patient_id": "3",
+    "wsi_video_url": "None",
+    "inference_results": "{'delayTime': 850, 'executionTime': 5300, 'id': 'sync-patient3', 'output': {'detection_results': [], 'status': 'COMPLETED', 'workerId': 'worker3'}}",
+    "celery_status": "completed",
+    "filename": "patient3.png",
+    "sample_type": "blood",
+    "date": "2024-12-03"
+  },
+  {
+    "id": 4,
+    "patient_id": "4",
+    "wsi_video_url": "None",
+    "inference_results": "{'delayTime': 870, 'executionTime': 5400, 'id': 'sync-patient4', 'output': {'detection_results': [], 'status': 'COMPLETED', 'workerId': 'worker4'}}",
+    "celery_status": "completed",
+    "filename": "patient4.png",
+    "sample_type": "blood",
+    "date": "2024-12-04"
+  }
+]
